@@ -11,4 +11,3 @@ pipelineConfig:
         steps:
         - command: echo “Executing integration test”
         - command: python trigger-job.py
-        
