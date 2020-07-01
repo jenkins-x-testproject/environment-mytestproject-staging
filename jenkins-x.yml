@@ -9,4 +9,5 @@ pipelineConfig:
     release:
       postBuild:
         steps:
+        - command: echo "Run"
         - command: python trigger-job.py
