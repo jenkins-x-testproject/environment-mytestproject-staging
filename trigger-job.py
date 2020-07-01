@@ -2,8 +2,8 @@ import requests
 import sys
 import time
 
-projectId = "ZUcm4zmEq0GrLCFEa2UgtQ"
-jobId = "EYQJ3tmcNkKqHhBOJ14P7w"
+projectId = "_0wSyPDKFUOA0OS1Ydk2XA"
+jobId = "Kt1VCFJIb0-2HgoM5clgBA"
 apiKey = "OeyCmOn4n6NEZJw2SgfZz9cBC0MzuUkPq1lhvIijNS81"
 agentId = "ZEBz4h3YZUOxb5s8xTgVeg"
 apiUrl = "https://api.testproject.io/"
