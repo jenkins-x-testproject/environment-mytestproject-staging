@@ -12,7 +12,7 @@ url = apiUrl + 'v2/projects/' + projectId + '/jobs/' + jobId + '/run'
 headers = {
     "accept": "application/json",
     "Authorization": apiKey,
-    "Content-Type": "application/json"
+    "Content-Type": "application/json; charset=utf-8"
 }
 body = {
     "agentId": agentId,
