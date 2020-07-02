@@ -9,5 +9,5 @@ pipelineConfig:
     release:
       postBuild:
         steps:
-        - command: echo "Run Integration Test"
+        - command: echo "Integration Test"
         - command: python trigger-job.py
