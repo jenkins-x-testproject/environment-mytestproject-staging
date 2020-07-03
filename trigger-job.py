@@ -24,7 +24,9 @@ body = {
     "queue": True
 }
 
+print("Before execution", url)
 executionId = requests.post(url, json=body, headers=headers).json()["id"]
+
 
 url = apiUrl + 'v2/projects/' + projectId + '/jobs/' + jobId + '/executions/'+ executionId + '/state'
 
@@ -33,6 +35,7 @@ headers = {
     "Authorization": apiKey,
 }
 
+print("Execution State", url)
 executionState = requests.get(url, headers=headers).json()["state"]
 
 count = 0
