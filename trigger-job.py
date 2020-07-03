@@ -24,7 +24,7 @@ body = {
     "queue": True
 }
 
-print("Before execution", url)
+print("Before executions", url)
 executionId = requests.post(url, json=body, headers=headers).json()["id"]
 
 
