@@ -4,10 +4,10 @@ import time
 import json
 
 
-projectId = "ZUcm4zmEq0GrLCFEa2UgtQ"
-jobId = "uSh9YsqZa0Gx82KI50NrBQ"
-apiKey = "OeyCmOn4n6NEZJw2SgfZz9cBC0MzuUkPq1lhvIijNS81"
-agentId = "ZEBz4h3YZUOxb5s8xTgVeg"
+projectId = "ZUcmXXXXXXEa2UgtQ"
+jobId = "uSh9YXXXXXXX0NrBQ"
+apiKey = "OeyCmOn4XXXXXXXXXPq1lhvIijNS81"
+agentId = "ZEBXXXXXXXXb5s8xTgVeg"
 apiUrl = "https://api.testproject.io/"
 url = apiUrl + 'v2/projects/' + projectId + '/jobs/' + jobId + '/run'
 
