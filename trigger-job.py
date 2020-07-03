@@ -35,7 +35,7 @@ headers = {
     "Authorization": apiKey,
 }
 
-print("Execution State", url)
+print("Execution States", url)
 executionState = requests.get(url, headers=headers).json()["state"]
 
 count = 0
